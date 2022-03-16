@@ -6,7 +6,7 @@
 *
 * Name: MANN PATEL Student ID: 134633205 Date: 15/03/2022 
 * 
-* Vercel Deployment Link: https://spotify-clone-using-angular.vercel.app/newReleases
+* Vercel Deployment Link: https://spotify-clone-using-angular.vercel.app/
 ********************************************************************************/
 
 import { Component } from '@angular/core';
