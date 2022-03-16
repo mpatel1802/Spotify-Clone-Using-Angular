@@ -4,8 +4,9 @@
 * assignment has been copied manually or electronically from any other source (including web sites) or 
 * distributed to other students. 
 *
-* Name: MANN PATEL Student ID: 134633205 Date: 22/03/2022 
+* Name: MANN PATEL Student ID: 134633205 Date: 15/03/2022 
 * 
+* Vercel Deployment Link: https://spotify-clone-using-angular.vercel.app/newReleases
 ********************************************************************************/
 
 import { Component } from '@angular/core';
