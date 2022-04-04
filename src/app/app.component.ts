@@ -6,8 +6,12 @@
 *
 * Name: MANN PATEL Student ID: 134633205 Date: 04/04/2022 
 * 
+* Angular App (Deployed) Link:
 * Vercel Deployment Link: https://spotify-clone-using-angular.vercel.app/
 * Netlify Deployment Link: https://spotify-assignment.netlify.app/
+*
+* User API (Heroku) Link: https://afternoon-cove-08180.herokuapp.com/
+*  
 ********************************************************************************/
 
 import { Component, OnInit } from '@angular/core';
