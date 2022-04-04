@@ -12,7 +12,7 @@
                 <mat-error *ngIf="pass1.errors?.['required']">Please provide a valid password</mat-error>
             </mat-form-field><br />
             <mat-form-field class="full-width-input">
-                <input matInput type="password" placeholder="Password" name="password2" [(ngModel)] = "registerUser.password2" #pass2="ngModel" required>
+                <input matInput type="password" placeholder="Confirm Password" name="password2" [(ngModel)] = "registerUser.password2" #pass2="ngModel" required>
                 <mat-error *ngIf="pass2.errors?.['required']">Please provide a valid password</mat-error>
             </mat-form-field><br />
             <button mat-raised-button [disabled]="loading" color="primary" type="submit">

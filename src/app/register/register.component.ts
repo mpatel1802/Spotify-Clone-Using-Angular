@@ -12,7 +12,6 @@ export class RegisterComponent implements OnInit {
 
   constructor(private authS: AuthService) { }
 
-  // registerUser: RegisterUser = {} as RegisterUser;
   registerUser: RegisterUser = { userName: '', password: '', password2: '' };
   warning: string = "";
   success: boolean = false;
