@@ -48,34 +48,6 @@ export class MusicDataService {
         { headers: { "Authorization": `Bearer ${token}` } });
     }));
   }
-
-  // addToFavourites(id: number): boolean {
-
-  //   let success = false;
-  //   if (id === null || id === undefined || this.favouritesList.length >= 50 || this.favouritesList.includes(id)) {
-  //     success = false;
-  //   } else {
-  //     this.favouritesList.push(id);
-  //     success = true;
-  //   }
-  //   return success;
-  // }
-
-  // removeFromFavourites(id: number): Observable<any> {
-  //   this.favouritesList.splice(this.favouritesList.indexOf(id), 1);
-  //   return this.getFavourites();
-  // }
-
-  // getFavourites(): Observable<any> {
-  //   if (this.favouritesList.length > 0) {
-  //     return this.spotifyToken.getBearerToken().pipe(mergeMap(token => {
-  //       return this.http.get<any>(`https://api.spotify.com/v1/tracks?ids=${this.favouritesList.join(",")}`,
-  //         { headers: { "Authorization": `Bearer ${token}` } });
-  //     }));
-  //   } else {
-  //     return new Observable(o => { o.next([]) });
-  //   }
-  // }
   
   addToFavourites(id: string): Observable<[String]> {
     return this.http.put<[String]>(`${environment.userAPIBase}api/user/favourites/${id}`, id);
