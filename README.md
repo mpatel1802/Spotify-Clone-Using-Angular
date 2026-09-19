@@ -1,27 +1,147 @@
-# Spotify Clone Using Angular
+# 🎵 Spotify Clone Using Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+A responsive **Spotify-inspired music streaming web application** built with Angular and TypeScript. This project recreates the look and feel of a modern music streaming platform while providing hands-on experience with Angular components, layouts, routing, styling, and frontend application development.
 
-## Development server
+## 🚀 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+🔗 **Live Application:**
+https://spotify-clone-using-angular.vercel.app/
 
-## Code scaffolding
+## 📌 Project Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project is a frontend implementation inspired by the Spotify web experience.
 
-## Build
+The goal was to recreate a modern music streaming interface while learning and applying Angular development concepts such as component-based architecture, TypeScript, HTML templates, CSS styling, and Angular CLI tooling.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application focuses on creating a familiar music-platform layout with a clean and responsive user interface.
 
-## Running unit tests
+## ✨ Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* 🎧 Spotify-inspired music streaming interface
+* 🏠 Modern home page layout
+* 🎵 Music-focused user interface
+* 📱 Responsive frontend design
+* 🧩 Component-based Angular architecture
+* 🎨 Custom CSS styling
+* ⚡ Dynamic Angular templates
+* 🖥️ Web-based application
+* 🔄 Angular development workflow
+* 🌐 Deployed using Vercel
 
-## Running end-to-end tests
+## 🛠️ Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+| Technology      | Purpose                                     |
+| --------------- | ------------------------------------------- |
+| **Angular**     | Frontend application framework              |
+| **TypeScript**  | Application logic and type-safe development |
+| **HTML**        | Page structure and Angular templates        |
+| **CSS**         | Styling and responsive layouts              |
+| **JavaScript**  | Supporting frontend functionality           |
+| **Angular CLI** | Project development and build tooling       |
+| **npm**         | Package and dependency management           |
+| **Vercel**      | Application deployment                      |
 
-## Further help
+## 🏗️ Project Architecture
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The application follows Angular's component-based architecture.
+
+```text
+Spotify-Clone-Using-Angular/
+│
+├── src/
+│   ├── app/
+│   │   └── ...
+│   ├── assets/
+│   │   └── ...
+│   ├── environments/
+│   │   └── ...
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+│
+├── angular.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.spec.json
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* [Node.js](https://nodejs.org/)
+* npm
+* Angular CLI
+
+You can install Angular CLI with:
+
+```bash
+npm install -g @angular/cli
+```
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/mpatel1802/Spotify-Clone-Using-Angular.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Spotify-Clone-Using-Angular
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+## ▶️ Run the Application
+
+Start the Angular development server:
+
+```bash
+ng serve
+```
+
+Then open:
+
+```text
+http://localhost:4200/
+```
+
+The application automatically reloads when source files are modified.
+
+## 🏗️ Build the Project
+
+Create a production build using:
+
+```bash
+ng build
+```
+
+The compiled application will be generated in the `dist/` directory.
+
+## 🧪 Running Tests
+
+Run the project's unit tests with:
+
+```bash
+ng test
+```
+
+The project uses **Karma** as its test runner.
+
+## 📚 Angular Development Concepts
+
+This project provided practical experience with:
+
+* Angular components
+* TypeScript
+* Angular
